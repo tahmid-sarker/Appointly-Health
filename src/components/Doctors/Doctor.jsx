@@ -31,7 +31,7 @@ const Doctor = ({ doctor }) => {
           }`}>
           {isAvailableToday ? "Available" : "Unavailable"}
         </span>
-        <span className="bg-blue-100 border border-blue-600 text-blue-600 text-xs font-semibold px-3 py-1 rounded-full">
+        <span className="bg-blue-100 border text-blue-600 text-xs font-semibold px-3 py-1 rounded-full">
           {experience}+ Years Experience
         </span>
       </div>

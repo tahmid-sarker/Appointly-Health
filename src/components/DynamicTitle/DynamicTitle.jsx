@@ -24,7 +24,7 @@ const DynamicTitle = () => {
     } else if (currentPath === `/doctor-info/${id}`) {
       const singleDoctor = doctors.find((doctor) => doctor.id === parseInt(id));
       if (singleDoctor) {
-        newTitle = `Dr. ${singleDoctor.name} - Profile | Appointly Health`;
+        newTitle = `${singleDoctor.name} | Appointly Health`;
       } else {
         newTitle = "Doctor Not Found | Appointly Health";
       }
